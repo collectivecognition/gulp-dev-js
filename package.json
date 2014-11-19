@@ -1,0 +1,34 @@
+{
+  "name": "gulp-dev-js",
+  "description": "Insert unminified javascript files during development",
+  "version": "0.1.0",
+  "homepage": "http://github.com/collectivecognition/gulp-dev-js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/collectivecognition/gulp-dev-js.git"
+  },
+  "author": {
+    "name": "Will Blanchette",
+    "email": "wb@wblanchette.com",
+    "url": "http://wblanchette.com/"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "gulp"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "through2": "^0.6.3"
+  },
+  "scripts": {},
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/gulp-concat/raw/master/LICENSE"
+    }
+  ]
+}
