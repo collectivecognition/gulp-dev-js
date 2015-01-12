@@ -1,7 +1,7 @@
 {
   "name": "gulp-dev-js",
   "description": "Insert unminified javascript files during development",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://github.com/collectivecognition/gulp-dev-js",
   "repository": {
     "type": "git",
@@ -16,9 +16,10 @@
   "keywords": [
     "gulp"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "through2": "^0.6.3" 
+  },
   "devDependencies": {
-    "through2": "^0.6.3"
   },
   "scripts": {},
   "engineStrict": true,
